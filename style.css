@@ -14,10 +14,10 @@ aside {
 }
 
 .container {
-  display: block;
-  width: auto !important;
+  display: inline-block;
+  width: 84vw !important;
   height: auto !important;
-  background: green !important;
+  background: white !important;
 }
 
 body {
@@ -54,4 +54,9 @@ ul li {
   padding: 0 !important;
   margin-left: 15% !important;
   border: none !important;
+}
+
+.texto {
+  padding-left: 8px !important;
+  background: none !important;
 }
