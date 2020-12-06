@@ -60,3 +60,14 @@ ul li {
   padding-left: 8px !important;
   background: none !important;
 }
+
+.inside_text {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.inside_text li {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}

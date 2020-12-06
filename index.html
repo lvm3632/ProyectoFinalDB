@@ -12,14 +12,15 @@
 
 <aside>
 <ul>
- <li><a href="/marco.html">Marco teórico</a></li>
- <li><a href="/hipotesis.html">Hipótesis y Objetivo</a></li>
+ <li><a href="#intro">Introducción</a></li>
+ <li><a href="#hipotesis">Hipótesis</a></li>
+  <li><a href="#definicion">Definición del proyecto</a></li>
 
- <li><a href="/metodologia.html">Metodología</a><ul class="menu_nested"><li>MongoDB</li>
+ <li><a href="#metodologia">Metodología</a><ul class="menu_nested"><li>MongoDB</li>
  <li>Pentaho</li>
  <li>R Studio</li></ul></li>
- <li><a href="/resultados.html">Resultados</a></li>
- <li><a href="/conclusiones.html">Conclusiones</a></li>
+ <li><a href="#resultados">Resultados</a></li>
+ <li><a href="#conclusiones">Conclusiones</a></li>
 </ul>
 </aside>
 
@@ -29,26 +30,47 @@
 
 <div class="texto">
 
-<p><b id="intro">Introducción </b></p>
+<p><b id="intro" style="color: #00008B !important;">Introducción </b></p>
 
 <p>¡Bienvenido a nuestro proyecto final de DB! Esta es una página dedicada al análisis de datos relacionados a los precios de los servicios esenciales así como alimentos de la cánasta básica mexicana con bases de datos no relacionales o NoSQL.</p>
 
 <p>Debido a tiempos extraordinarios como hoy día 2020 con el Covid-19, nos hemos dado la tarea de observar la tendencia e incrementos de ciertos productos, en ver sí realmente ha habido una subida de precio a partir del mes de <b>Enero hasta el mes de Noviembre</b> de este año en distintas ciudades de México.</p>
 
-<p>Para lograrlo hemos recurrido a <b>Pentaho, MongoDB y R Studio</b>, para observar que productos han crecido en aumento, y observar su comportamiento en una gráfica de regresión lineal</p>
+<p>Para lograrlo hemos recurrido a <b>Pentaho, MongoDB y R Studio</b>, para observar que productos han crecido en aumento, y observar su comportamiento en una gráfica de regresión lineal.</p>
 
 
 <p>Además, de usar <a href="https://developers-dot-devsite-v2-prod.appspot.com/chart/interactive/docs/" target="_blank" rel="noopener noreferrer">Google Charts</a> que son gráficas en Javascript hechas por Google, esto para dar una mejor representanción gráfica de los datos.</p>
 
+ <b id="hipotesis" style="color: #00008B !important;">
+  Hipótesis:
+ </b>
  <p>
+  La hipótesis que se planteó el equipo fue: "En México han estado aumentando los precios a raíz del COVID-19, sobre todo en productos y servicios esenciales como: Agua, luz, gas, electricidad y en los propios alimentos".
 
-  <b>
+ </p>
+
+
+  <b id="definicion" style="color: #00008B !important;">
    Definición del proyecto:
   </b>
 
 
-  <p>En nuestro proyecto final de bases de datos, nuestro equipo decidió usar la información directamente de la página del
-  INEGI, obtenida en un DENUE, por un archivo de comas.</p>
+  <p>En nuestro proyecto final de bases de datos, nuestro equipo decidió usar la información directamente de la página del INEGI, obtenida en el INPC (Índice Nacional de Precios al Consumidor) por un archivo de comas, estos archivos representan la mayoría de los precios de múltiples meses en los últimos años y el actual.</p>
+
+  <p>La información que puede ser extraída se puede filtrar por ciudades, productos y servicios como: </p>
+  <ul class="inside_text">
+  <li><b>1. Alimentos, bebidas y tabaco</b></li>
+  <li><b>2. Ropa, calzado y accesorios</b></li>
+  <li><b>3. Vivienda</b></li>
+  <li><b>4. Muebles, aparatos y accesorios domésticos</b></li>
+  <li><b>5. Salud y cuidado personal</b></li>
+  <li><b>6. Transporte</b></li>
+  <li><b>7. Educación y esparcimiento</b></li>
+  <li><b>8. Otros servicios</b></li></ul>
+
+  <p>Estos archivos pueden ser extraídos del siguiente enlace: </p>
+
+  <a href="https://www.inegi.org.mx/app/preciospromedio/?bs=18" target="_blank">Datos de precios promedio en México (DESCARGAR)</a>
 
  </p>
 
