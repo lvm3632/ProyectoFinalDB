@@ -48,7 +48,7 @@ function drawChart() {
   };
 
   var chart = new google.charts.Line(
-    document.getElementById("linechart_material")
+    document.getElementById("linechart_material2")
   );
 
   chart.draw(data, google.charts.Line.convertOptions(options));
