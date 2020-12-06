@@ -1,6 +1,6 @@
 footer {
   width: 100% !important;
-  height: 220px !important;
+  height: auto !important;
   background-color: grey !important;
 }
 
@@ -9,19 +9,21 @@ aside {
   width: 15% !important;
   float: left !important;
   background: pink !important;
-  height: 400px !important;
+  height: auto !important;
   padding: 0 !important;
 }
 
 .container {
+  display: block;
   width: auto !important;
-  height: 400px !important;
+  height: auto !important;
   background: green !important;
 }
 
 body {
   margin: 0 !important;
   padding: 0 !important;
+  background: #020281;
 }
 
 ul {
@@ -43,4 +45,13 @@ ul li {
   color: red !important;
   border: 1px solid black;
   text-align: center;
+  font-size: 40px !important;
+  margin: 0 !important;
+}
+
+.menu_nested li {
+  list-style: circle !important;
+  padding: 0 !important;
+  margin-left: 15% !important;
+  border: none !important;
 }
