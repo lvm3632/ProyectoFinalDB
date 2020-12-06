@@ -85,16 +85,25 @@ p {
 @media only screen and (max-width: 600px) {
   aside {
     margin: 0 !important;
-    width: 40% !important;
+    width: 33% !important;
     float: left !important;
     background: #eaeaea !important;
     height: auto !important;
     padding: 0 !important;
   }
+  ul {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  ul li {
+    margin: 0 !important;
+    padding: 16px 8px !important;
+  }
 
   .container {
     display: inline-block;
-    width: 60vw !important;
+    width: 67vw !important;
     height: auto !important;
     background: white !important;
   }
