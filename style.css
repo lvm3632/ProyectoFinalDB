@@ -11,8 +11,6 @@ aside {
   background: #eaeaea !important;
   height: auto !important;
   padding: 0 !important;
-  position: fixed !important;
-  display: inline-block !important;
 }
 
 .container {
@@ -20,7 +18,6 @@ aside {
   width: 84vw !important;
   height: auto !important;
   background: white !important;
-  margin-left: 15% !important;
 }
 
 body {
