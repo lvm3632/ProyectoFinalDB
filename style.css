@@ -81,3 +81,14 @@ aside ul li:hover {
 p {
   font-size: 18px !important;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  aside {
+    margin: 0 !important;
+    width: 33% !important;
+    float: left !important;
+    background: #eaeaea !important;
+    height: auto !important;
+    padding: 0 !important;
+  }
+}
