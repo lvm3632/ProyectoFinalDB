@@ -1,0 +1,12 @@
+Hola profesor, nosotros hicimos una página está en el siguiente enlace: 
+
+https://lvm3632.github.io/ProyectoFinalDB
+
+Creamos una base de datos en MongoDB y la conectamos en tiempo real a la página además de que usamos otras cosas interactivas como Google Charts, y la regresión lineal de algunos datos en R studio.
+
+Para descargar los archivos del proyecto o de la página se encuentran aquí: 
+https://github.com/lvm3632/ProyectoFinalDB/tree/master
+
+Somos el equipo7: Gerardo Reyes, Luis Bodart y Michel Lujano
+
+Muchas gracias y saludos!
