@@ -36,7 +36,7 @@ function drawChart() {
   var options = {
     chart: {
       title:
-        "Precios en consumo de electricidad para vivienda del 2019/02 al 2020/10",
+        "Precios de consumo en electricidad para vivienda del 2019/02 al 2020/10",
       subtitle: "Consumo de 1000 KWH",
     },
     vAxis: {
