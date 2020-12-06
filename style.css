@@ -8,7 +8,7 @@ aside {
   margin: 0 !important;
   width: 15% !important;
   float: left !important;
-  background: pink !important;
+  background: #eaeaea !important;
   height: auto !important;
   padding: 0 !important;
 }
@@ -23,14 +23,16 @@ aside {
 body {
   margin: 0 !important;
   padding: 0 !important;
-  background: #020281;
+  background: rgba(206, 206, 206, 0.5);
 }
 
 ul {
   margin: 0 !important;
   padding: 0 !important;
 }
-
+a {
+  font-size: 18px !important;
+}
 ul li {
   text-decoration: none !important;
   text-transform: none !important;
@@ -38,15 +40,19 @@ ul li {
   margin: 0 !important;
   width: auto !important;
   padding: 30px !important;
-  border: 1px solid rgb(17, 15, 15);
+  border: 1px solid rgba(206, 206, 206, 0.5);
+  font-size: 18px !important;
 }
-
+aside ul li:hover {
+  background: rgba(148, 143, 143, 0.5);
+}
 .container h1 {
-  color: red !important;
+  color: #00008b !important;
   border: 1px solid black;
   text-align: center;
   font-size: 40px !important;
   margin: 0 !important;
+  border: none !important;
 }
 
 .menu_nested li {
@@ -70,4 +76,8 @@ ul li {
   margin: 0 !important;
   padding: 0 !important;
   border: none !important;
+}
+
+p {
+  font-size: 18px !important;
 }
