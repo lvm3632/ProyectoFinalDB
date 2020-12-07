@@ -7,10 +7,16 @@ footer {
 aside {
   margin: 0 !important;
   width: 15% !important;
-  float: left !important;
+
   background: #eaeaea !important;
   height: auto !important;
   padding: 0 !important;
+  float: left !important;
+
+  display: inline-block !important;
+  top: 0;
+  position: -webkit-sticky !important;
+  position: sticky !important;
 }
 
 .container {
@@ -18,6 +24,7 @@ aside {
   width: 82vw !important;
   height: auto !important;
   background: white !important;
+  margin-left: 0% !important;
 }
 
 body {
@@ -81,6 +88,7 @@ aside ul li:hover {
 p {
   font-size: 18px !important;
 }
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   aside {
