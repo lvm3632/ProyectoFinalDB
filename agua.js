@@ -40,7 +40,7 @@ function drawChart() {
       subtitle: "Agua",
     },
     vAxis: {
-      title: "Precio",
+      title: "Precio (MXN)",
     },
     hAxis: {
       title: "Meses",

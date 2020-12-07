@@ -39,7 +39,7 @@ function drawChart() {
       subtitle: "Gas, cantidad por litro.",
     },
     vAxis: {
-      title: "Precio",
+      title: "Precio (MXN)",
     },
     hAxis: {
       title: "Meses",

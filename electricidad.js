@@ -40,7 +40,7 @@ function drawChart() {
       subtitle: "Consumo de 1000 KWH",
     },
     vAxis: {
-      title: "Precio",
+      title: "Precio (MXN)",
     },
     hAxis: {
       title: "Meses",
