@@ -36,7 +36,7 @@ function drawChart() {
     chart: {
       title:
         "Precios de consumo en Gas LP para vivienda del 2019/03 al 2020/10",
-      subtitle: "Gas",
+      subtitle: "Gas, cantidad por litro",
     },
     vAxis: {
       title: "Precio",
